@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/');
 
 body {
-    font-family: 'Roboto', serif;
+    font-family: 'Verdana', serif;
 }
 
 *{
@@ -16,16 +16,16 @@ body {
     left: -400px;
     width: 400px;
     height: 100%;
-    background: #042331;
+    background: #3d3d3d;
     transition: all .5s ease;
 }
 
 .sidebar header{
-    font-size: 22px;
+    font-size: 36px;
     color: white;
     padding-left: 50px;
     line-height: 70px;
-    background: #063146;
+    background: #3d3d3d;
     user-select: none; 
 }
 
@@ -38,13 +38,14 @@ body {
     color: white;
     padding-left: 20px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    border-bottom: 1px solid black;
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
     transition: 0.4s;
 }
 
 ul li:hover a{
     padding-left: 50px;
+    background: #666666;
 }
 
 .sidebar ul a i{
@@ -58,7 +59,7 @@ ul li:hover a{
 label #btn, label #cancel {
     position: absolute;
     cursor: pointer;
-    background: #042331;
+    background: #000000;
     border-radius: 3px;
 }
 
@@ -76,7 +77,7 @@ label #cancel{
     left: -340px;
     top: 17px;
     font-size: 30px;
-    color: #0a5275;
+    color: #ffffff;
     padding: 4px 9px;
     transition: all .5s ease;
 }
