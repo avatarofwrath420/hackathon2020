@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/');
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 
 *{
@@ -16,7 +16,7 @@ body {
     left: -400px;
     width: 400px;
     height: 100%;
-    background: #042331;
+    background: ##666666;
     transition: all .5s ease;
 }
 
@@ -25,7 +25,7 @@ body {
     color: white;
     padding-left: 50px;
     line-height: 70px;
-    background: #063146;
+    background: ##666666;
     user-select: none; 
 }
 
@@ -38,8 +38,8 @@ body {
     color: white;
     padding-left: 20px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(255, 255, 255, .1);
-    border-bottom: 1px solid black;
+    border-top: 0px solid black;
+    border-bottom: 0px solid black;
     transition: 0.4s;
 }
 
@@ -58,7 +58,7 @@ ul li:hover a{
 label #btn, label #cancel {
     position: absolute;
     cursor: pointer;
-    background: #042331;
+    background: ##000000;
     border-radius: 3px;
 }
 
@@ -85,7 +85,6 @@ label #cancel{
     left: 0;
 }
 
-
 #check:checked ~ label #btn{
     left: 250px;
     opacity: 0;
@@ -106,105 +105,4 @@ section{
     background-size: cover;
     height: 100vh;
     transition: all .5s;
-}
-
-
-.slide-down-page {
-    z-index = -1;
-    position: absolute;
-    margin-left: 0px;
-    width: 1920px;
-    height: 100vh;
-    opacity: 0;
-    box-sizing: content-box;
-    background-color: #7d7d7d;
-    transition: opacity 250ms ease-in;
-}
-
-#check:checked ~ .slide-down-page {
-    width: 1920px;
-    margin-left: 0px;
-    opacity = 0.5;
-}
-
-
-
-
-/*Seven text boxes*/
-
-.first-text-box {
-    position: absolute;
-    width: 1520px;
-    margin-left: 400px;
-    color: #fff;
-    font-size: 18px;
-    text-align: right;
-    letter-spacing: 2px;
-    font-weight: 100;
-}
-
-.second-text-box {
-    position: absolute;
-    width: 1120px;
-    margin-left: 400px;
-    color: #fff;
-    font-size: 18px;
-    text-align: right;
-    letter-spacing: 2px;
-    font-weight: 100;
-}
-
-.third-text-box {
-    position: absolute;
-    width: 1120px;
-    margin-left: 400px;
-    color: #fff;
-    font-size: 18px;
-    text-align: right;
-    letter-spacing: 2px;
-    font-weight: 100;
-}
-
-.fourth-text-box {
-    position: absolute;
-    width: 1120px;
-    margin-left: 400px;
-    color: #fff;
-    font-size: 18px;
-    text-align: right;
-    letter-spacing: 2px;
-    font-weight: 100;
-}
-
-.fifth-text-box {
-    position: absolute;
-    width: 1120px;
-    margin-left: 400px;
-    color: #fff;
-    font-size: 18px;
-    text-align: right;
-    letter-spacing: 2px;
-    font-weight: 100;
-}
-
-.sixth-text-box {
-    position: absolute;
-    width: 1120px;
-    margin-left: 400px;
-    color: #fff;
-    font-size: 18px;
-    text-align: right;
-    letter-spacing: 2px;
-    font-weight: 100;
-}
-
-.seventh-text-box {
-    position: absolute;
-    width: 1120px;
-    margin-left: 400px;
-    color: #fff;
-    font-size: 18px;
-    text-align: right;
-    letter-spacing: 2px;
-    font-weight: 100;
 }
