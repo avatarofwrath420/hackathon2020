@@ -5,25 +5,38 @@
         <title>Coronavirus Infographic</title>
         <link rel = "stylesheet" href = "StyleH2020.css">
         <script src = "https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src = "script.js"></script>
     </head>
     <body>
+        
+        <div class = "slide-down-page">
+            <a href = "#" class = "close btn">Close</a>
+        </div>
+        
+        
         <input type = "checkbox" id = "check">
         <label for = "check">
             <i class = "fas fa-bars" id = "btn"></i>
-            <i class = "fas fa-times" id = "cancel"></i>
+            <i class = "fas fa-times" id = "cancel" onclick = "castZero(); checkCast()"></i>
             
         </label>
+        
+        <div class = "first-text-box slide-down-page" id = "first" style = "display: hidden">
+            <h2 style = "text-align: right; font-size: 70px"> What is Covid-19?</h2>
+            <p style = "text-align: justified; font-size: 24px"></p>
+        </div>
         
         <div class = "sidebar">
             <header>COVID-19</header>
             <ul>
-                <li><a href = "#"> <i class = "fas fa-question-circle"></i> About COVID-19</a></li>
-                <li><a href = "#"> <i class = "fas fa-link"></i> Relevant Links</a></li>
-                <li><a href = "#"> <i class = "fas fa-stream"></i> Overview</a></li>
-                <li><a href = "#"> <i class = "fas fa-calendar-week"></i> What You Can Do</a></li>
-                <li><a href = "#"> <i class = "fas fa-sliders-h"></i> Sources</a></li>
-                <li><a href = "#"> <i class = "fas fa-question-circle"></i> Who Are We?</a></li>
-                <li><a href = "#"> <i class = "fas fa-envelope"></i> Contact</a></li>
+                <li><a href = "#" onclick = "castOne(); checkCast()"> <i class = "open btn fas fa-question-circle"></i> About COVID-19</a></li>
+                <li><a href = "#" onclick = "castTwo(); checkCast()"> <i class = "open btn sdpage fas fa-link"></i> Effects </a></li>
+                <li><a href = "#" onclick = "castThree(); checkCast()"> <i class = "open btn sdpage fas fa-stream"></i> Overview</a></li>
+                <li><a href = "#" onclick = "castFour(); checkCast()"> <i class = "open btn sdpage fas fa-calendar-week"></i> What You Can Do</a></li>
+                <li><a href = "#" onclick = "castFive(); checkCast()"> <i class = "open btn sdpage fas fa-question-circle"></i> Who Are We?</a></li>
+                <li><a href = "#" onclick = "castSix(); checkCast()"> <i class = "open btn sdpage fas fa-sliders-h"></i> Sources</a></li>
+                <li><a href = "#" onclick = "castSeven(); checkCast()"> <i class = "open btn sdpage fas fa-envelope"></i> Contact</a></li>
             </ul>
         </div>
         
