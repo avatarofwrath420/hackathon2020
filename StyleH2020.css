@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 *{
@@ -16,7 +16,7 @@ body {
     left: -400px;
     width: 400px;
     height: 100%;
-    background: #3d3d3d;
+    background: #042331;
     transition: all .5s ease;
 }
 
@@ -25,7 +25,7 @@ body {
     color: white;
     padding-left: 50px;
     line-height: 70px;
-    background: #3d3d3d;
+    background: #063146;
     user-select: none; 
 }
 
@@ -38,14 +38,13 @@ body {
     color: white;
     padding-left: 20px;
     box-sizing: border-box;
-    border-top: 0px solid rgba(255, 255, 255, .1);
-    border-bottom: 0px solid black;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
     transition: 0.4s;
 }
 
 ul li:hover a{
     padding-left: 50px;
-    background: #666666;
 }
 
 .sidebar ul a i{
@@ -59,7 +58,7 @@ ul li:hover a{
 label #btn, label #cancel {
     position: absolute;
     cursor: pointer;
-    background: #666666;
+    background: #042331;
     border-radius: 3px;
 }
 
@@ -77,17 +76,9 @@ label #cancel{
     left: -340px;
     top: 17px;
     font-size: 30px;
-    color: #ffffff;
+    color: #0a5275;
     padding: 4px 9px;
     transition: all .5s ease;
-}
-
-#btn:hover{
-    background: #a0a0a0;
-}
-
-#cancel:hover{
-    background: #a0a0a0;
 }
 
 #check:checked ~ .sidebar{
@@ -119,10 +110,10 @@ section{
 
 
 .slide-down-page {
-    z-index: -1;
+    z-index = -1;
     position: absolute;
     margin-left: 0px;
-    width: 100%;
+    width: 1920px;
     height: 100vh;
     opacity: 0;
     box-sizing: content-box;
@@ -133,11 +124,81 @@ section{
 #check:checked ~ .slide-down-page {
     width: 1920px;
     margin-left: 0px;
-    opacity: 0.5;
+    opacity = 0.5;
 }
 
 
+
+
+/*Seven text boxes*/
+
 .first-text-box {
+    position: absolute;
+    width: 1520px;
+    margin-left: 400px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.second-text-box {
+    position: absolute;
+    width: 1120px;
+    margin-left: 400px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.third-text-box {
+    position: absolute;
+    width: 1120px;
+    margin-left: 400px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.fourth-text-box {
+    position: absolute;
+    width: 1120px;
+    margin-left: 400px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.fifth-text-box {
+    position: absolute;
+    width: 1120px;
+    margin-left: 400px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.sixth-text-box {
+    position: absolute;
+    width: 1120px;
+    margin-left: 400px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.seventh-text-box {
     position: absolute;
     width: 1120px;
     margin-left: 400px;
