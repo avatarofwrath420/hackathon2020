@@ -62,10 +62,52 @@ function castSeven() {
 
 function checkCast() {
     if (curCast === 1) {
-        $('#first').fadeTo("fast", 0.5);
+        $('#first').fadeTo("fast", 0.7);
     }
     else {
         $('#first').fadeTo("fast", 0);
+    }
+    
+    if (curCast === 2) {
+        $('#second').fadeTo("fast", 0.7);
+    }
+    else {
+        $('#second').fadeTo("fast", 0);
+    }
+    
+    if (curCast === 3) {
+        $('#third').fadeTo("fast", 0.7);
+    }
+    else {
+        $('#third').fadeTo("fast", 0);
+    }
+    
+    if (curCast === 4) {
+        $('#fourth').fadeTo("fast", 0.7);
+    }
+    else {
+        $('#fourth').fadeTo("fast", 0);
+    }
+    
+    if (curCast === 5) {
+        $('#fifth').fadeTo("fast", 0.7);
+    }
+    else {
+        $('#fifth').fadeTo("fast", 0);
+    }
+    
+    if (curCast === 6) {
+        $('#sixth').fadeTo("fast", 0.7);
+    }
+    else {
+        $('#sixth').fadeTo("fast", 0);
+    }
+    
+    if (curCast === 7) {
+        $('#seventh').fadeTo("fast", 0.7);
+    }
+    else {
+        $('#seventh').fadeTo("fast", 0);
     }
 
 }
