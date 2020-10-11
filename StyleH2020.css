@@ -60,16 +60,20 @@ label #btn, label #cancel {
     position: absolute;
     cursor: pointer;
     background: #000000;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 label #btn {
     left: 40px;
     top: 25px;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     padding: 6px 12px;
     transition: all .5s;
+}
+
+#btn:hover{
+    background: #666666;
 }
 
 label #cancel{
@@ -80,6 +84,10 @@ label #cancel{
     color: #ffffff;
     padding: 4px 9px;
     transition: all .5s ease;
+}
+
+#cancel:hover{
+    background: #666666;
 }
 
 #check:checked ~ .sidebar{
